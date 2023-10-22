@@ -52,3 +52,39 @@ console.log(scl2);
 
 // 12.Change learn Javascript to 30 Days Of Python using replace() method.
 console.log(challenge.replace('JavaScript','Python'));
+
+// 13.What is character at index 15 in 'learn Javascript' string? Use charAt() method.
+console.log(challenge.charAt(15));
+
+// 14.What is the character code of J in 'learn Javascript' string using charCodeAt()
+console.log(challenge.charCodeAt(0));
+
+// 15.Use indexOf to determine the position of the first occurrence of a in learn Javascript
+console.log(challenge.indexOf('a'));
+
+// 16.Use lastIndexOf to determine the position of the last occurrence of a in learn Javascript.
+console.log(challenge.lastIndexOf('a'));
+
+// 17.Use indexOf to find the position of the first occurrence of the word because in the following sentence:'You cannot end a sentence with because because because is a conjunction'
+var sentences = 'You cannot end a sentence with because because because is a conjunction';
+console.log(sentences.lastIndexOf('because'));
+
+// 18.Use lastIndexOf to find the position of the last occurrence of the word because in the following sentence:'You cannot end a sentence with because because because is a conjunction'
+var sentences = 'You cannot end a sentence with because because because is a conjunction';
+console.log(sentences.lastIndexOf('conjunction'));
+
+// 19.Use search to find the position of the first occurrence of the word because in the following sentence:'You cannot end a sentence with because because because is a conjunction'
+var sentences = 'You cannot end a sentence with because because because is a conjunction';
+console.log(sentences.search('is a conjunction'));
+
+// Use startsWith() method with the string learn Javascript and make the result true
+console.log(challenge.startsWith('Learn'));
+
+// Use endsWith() method with the string learn Javascript and make the result true
+var sentences = 'You cannot end a sentence with because because because is a conjunction';
+console.log(sentences.endsWith('a conjunction'));
+
+// Use repeat() method to print learn Javascript 2 times
+console.log(challenge.repeat(1));
+
+// 
